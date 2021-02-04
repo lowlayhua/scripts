@@ -1,5 +1,8 @@
-## Configure Zone
-```gcloud config set compute/zone us-central1-f```
+## Configure Zone & region
+```
+gcloud config set compute/zone us-central1-f
+gcloud config set compute/region us-central1
+```
 
 ##  Kubernetes Engine using the Spinnaker tutorial sample application
 ```
