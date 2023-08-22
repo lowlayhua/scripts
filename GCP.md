@@ -1,3 +1,6 @@
+# Retrieve external IP address of the Cloud Shell instance
+- `ip=$(curl -s https://api.ipify.org)
+echo "My External IP address is: $ip"`
 ## Configure Zone & region
 ```
 gcloud config set compute/zone us-central1-f
